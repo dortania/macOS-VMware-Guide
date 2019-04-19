@@ -24,7 +24,7 @@ Then, "Continue Installation".
 
 Enter your password and press "Install Software".
 
-![](.gitbook/assets/vmplayer_sghaxqxujh%20%281%29.png)
+![](.gitbook/assets/vmplayer_kljsfm65p3.png)
 
 Now, wait for it to install.
 
