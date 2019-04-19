@@ -80,7 +80,61 @@ Time to do the pre-install commands. Type these commands in Terminal \(replacing
 
 `sed -i '' 's/auth-//g' /Volumes/Mojave/macOS\ Install\ Data/Locked\ Files/Boot\ Files/com.apple.Boot.plist` 
 
-Reboot the virtual machine and boot to your hard drive. Leave it to install. This may take a while.
+Reboot the virtual machine and boot to the BIOS. Select "Enter Setup".
+
+![](.gitbook/assets/vmplayer_no8g7heuyd.png)
+
+Select "Configure boot options".
+
+![](.gitbook/assets/vmplayer_f6t7yuddrs.png)
+
+Select "Delete boot option".
+
+![](.gitbook/assets/vmplayer_xvgvt5mql1.png)
+
+Press Enter to the box next to "Mac OS X" and select "Commit changes and exit".
+
+![](.gitbook/assets/vmplayer_c2y2a407sn.png)
+
+Go back into "Configure boot options"
+
+![](.gitbook/assets/vmplayer_f6t7yuddrs.png)
+
+Select "Add boot option".
+
+![](.gitbook/assets/vmplayer_bjlf7h00cu.png)
+
+Choose the name of your partition \("Mojave" in my case\).
+
+![](.gitbook/assets/vmplayer_vj4vv7u1tb.png)
+
+Select "macOS Install Data".
+
+![](.gitbook/assets/vmplayer_43dexf8srv.png)
+
+Select "Locked Files"
+
+![](.gitbook/assets/vmplayer_1zx5kx2gl3.png)
+
+Select "Boot Files"
+
+![](.gitbook/assets/vmplayer_byityctwib.png)
+
+Select "boot.efi"
+
+![](.gitbook/assets/vmplayer_2s5bnf33bs.png)
+
+Select "Input the description" and type "Mac OS X". Select "Commit changes and exit".
+
+![](.gitbook/assets/vmplayer_ceggfkfbxy.png)
+
+Select "Exit the Boot Maintenance Manager".
+
+![](.gitbook/assets/vmplayer_f2g768uolf.png)
+
+Select "Mac OS X" and leave it to install. This may take a while.
+
+![](.gitbook/assets/vmplayer_ydvnqgebfl.png)
 
 ![](.gitbook/assets/annotation-2019-03-28-204917.jpg)
 
