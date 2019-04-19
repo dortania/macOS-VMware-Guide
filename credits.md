@@ -6,7 +6,10 @@ description: In no particular order
 
 * NoOne - For giving me the idea to actually make this guide.
 * NoOne/DhinakG - For making the original, awesome AMD Vanilla guides which were the inspiration for the layout of this guide.
-* Sydney - For helping me host the MojaveAMD VMDK.
+* Sydney - For hosting the MojaveAMD VMDK.
+* DhinakG - For finding mistakes and helping me debug issues.
+* Notiflux - For finding mistakes and helping me debug issues.
+* Scooby-Chan - For testing the VMDK.
 * Apple - For making macOS.
 * Shaneee - For making the AMD macOS kernel.
 * The VMware Team - For making VMware Player/Workstation Pro. 
