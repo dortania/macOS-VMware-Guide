@@ -148,8 +148,6 @@ When the VM has rebooted, boot back into the installer and open Terminal once ag
 
 `cp -rf /Volumes/MojaveAMD/System/Library/Extensions/System.kext /Volumes/Mojave/System/Library/Extensions/`
 
-`cp -rf /Volumes/MojaveAMD/System/Library/Extensions/IONetworkingFamily.kext /Volumes/Mojave/System/Library/Extensions/`
-
 `chmod -R 755 /Volumes/Mojave/System/Library/Extensions/`
 
 `chown -R root:wheel /Volumes/Mojave/System/Library/Extensions/`
