@@ -7,6 +7,5 @@
 * [Making the virtual machine](making-the-virtual-machine.md)
 * [Installing macOS](installing-macos.md)
 * [Installing VMware Tools](installing-vmware-tools.md)
-* [Fixing Broken Internet](fixing-broken-internet.md)
 * [Credits](credits.md)
 
