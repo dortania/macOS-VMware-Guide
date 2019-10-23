@@ -66,7 +66,11 @@ Sit back and let it install. This will take about 5 mins, depending on your mach
 
 ![](.gitbook/assets/annotation-2019-03-28-193658.jpg)
 
-Once the VM restarts, enter the BIOS and boot back into the Mojave installer.
+If it restarts and you get a 'CPU is disabled' error, attempt to close the VM window, select 'Power Off', reopen VMware.
+
+![](.gitbook/assets/vmplayer_4m0ekxofcu.png)
+
+Start your VM, enter the BIOS and boot back into the Mojave installer.
 
 ![](.gitbook/assets/annotation-2019-03-28-194325.jpg)
 
@@ -76,9 +80,8 @@ Once the installer has booted, click on "Utilities" in the Finder bar and select
 
 ![](.gitbook/assets/annotation-2019-03-28-194809.jpg)
 
-Time to do the pre-install commands. Type these commands in Terminal \(replacing "Mojave" with whatever you named your hard drive earlier\): `cp -rf /Volumes/MojaveAMD/System/Library/PrelinkedKernels/prelinkedkernel /Volumes/Mojave/macOS\ Install\ Data/Locked\ Files/Boot\ Files/`
-
-`sed -i '' 's/auth-//g' /Volumes/Mojave/macOS\ Install\ Data/Locked\ Files/Boot\ Files/com.apple.Boot.plist` 
+Time to do the pre-install commands. Type these commands in Terminal \(replacing "Mojave" with whatever you named your hard drive earlier\): `cp -rf /Volumes/MojaveAMD/System/Library/PrelinkedKernels/prelinkedkernel /Volumes/Mojave/macOS\ Install\ Data/Locked\ Files/Boot\ Files/  
+sed -i '' 's/auth-//g' /Volumes/Mojave/macOS\ Install\ Data/Locked\ Files/Boot\ Files/com.apple.Boot.plist` 
 
 Reboot the virtual machine and boot to the BIOS. Select "Enter Setup".
 
@@ -144,17 +147,9 @@ If you get this error after installation, press "OK" to restart the VM.
 
 When the VM has rebooted, boot back into the installer and open Terminal once again. Time to do the post-install commands. \(replacing "Mojave" with whatever you named your hard drive earlier\): 
 
-`cp -rf /Volumes/MojaveAMD/System/Library/Kernels/kernel /Volumes/Mojave/System/Library/Kernels/`
-
-`cp -rf /Volumes/MojaveAMD/System/Library/Extensions/System.kext /Volumes/Mojave/System/Library/Extensions/`
-
-`chmod -R 755 /Volumes/Mojave/System/Library/Extensions/`
-
-`chown -R root:wheel /Volumes/Mojave/System/Library/Extensions/`
-
-`rm -rf /Volumes/Mojave/System/Library/PrelinkedKernels/prelinkedkernel`
-
-`kextcache -u /Volumes/Mojave/`
+`cp -rf /Volumes/MojaveAMD/System/Library/Kernels/kernel /Volumes/Mojave/System/Library/Kernels/  
+rm -rf /Volumes/Mojave/System/Library/PrelinkedKernels/prelinkedkernel  
+kextcache -u /Volumes/Mojave/`
 
 If you get a "KernelCache ID" at the end of that, that means that the prelinkedkernel rebuilt succesfully.
 

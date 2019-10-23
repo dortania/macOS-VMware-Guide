@@ -36,5 +36,7 @@ Select "Restart" and let your machine reboot by itself.
 
 Congratulations, you've just made a macOS VM. See, it wasn't so bad after all. 
 
-![](.gitbook/assets/vmplayer_e3uqhdag8h.jpg)
+![](.gitbook/assets/vmplayer_djfnaumgcr.jpg)
+
+
 
