@@ -16,7 +16,7 @@ I see that you want to make a macOS VM in VMware on your AMD CPU but have no ide
 
 #### Apple's online services \(App Store, iCloud, iMessage, FaceTime & Siri\) will not work in your virtual machine.
 
-#### Do not update you virtual machine. The AMD kernel is only built for 10.14.1 and you will break your virtual machine if you update it.
+#### Do not update you virtual machine. The AMD kernel is only built for 10.14.3 and you will break your virtual machine if you update it.
 
 
 
