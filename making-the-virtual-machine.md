@@ -16,7 +16,7 @@ Now that you've installed VMware Unlocker, open up VMware.
 
 * Choose "Typical \(recommended\)"  and press "Next".
 
-![](.gitbook/assets/annotation-2019-03-24-090430.jpg)
+![](.gitbook/assets/vmware_2bmnbdwmab.png)
 
 * Select "I will install the operating system later".
 

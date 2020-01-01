@@ -10,9 +10,9 @@ Your virtual machine should start up. If you are greeted by this message, press 
 
 ![](.gitbook/assets/annotation-2019-03-28-184753.jpg)
 
-As soon as you see the VMware logo pop up on a white background, immediently hit any key to enter the BIOS. 
+As soon as you see the VMware logo pop up on a black background, immediently hit any key to enter the BIOS. 
 
-![](.gitbook/assets/annotation-2019-03-28-185546.jpg)
+![](.gitbook/assets/vmplayer_snf5clngda%20%281%29.png)
 
 ![](.gitbook/assets/annotation-2019-03-28-190107.jpg)
 

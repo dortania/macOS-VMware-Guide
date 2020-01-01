@@ -4,9 +4,8 @@ description: In no particular order
 
 # Credits
 
-* NoOne - For giving me the idea to actually make this guide.
+* NoOne - For giving me the idea to actually make this guide and for .
 * NoOne/DhinakG - For making the original, awesome AMD Vanilla guides which were the inspiration for the layout of this guide.
-* Sydney - For hosting the MojaveAMD VMDK.
 * DhinakG - For finding mistakes and helping me debug issues.
 * Notiflux - For finding mistakes and helping me debug issues.
 * Scooby-Chan - For testing the VMDK.
