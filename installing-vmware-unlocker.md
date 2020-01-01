@@ -4,7 +4,7 @@ description: 'Another Fun Fact: These screenshots are from that same VM'
 
 # Installing VMware Unlocker
 
-Click [here](https://github.com/DrDonk/unlocker/releases) or click on "VMware Unlocker" in Prerequisites to download VMware Unlocker.
+Click [here](https://github.com/DrDonk/unlocker/archive/master.zip) or click on "VMware Unlocker" in Prerequisites to download VMware Unlocker.
 
 Once you've downloaded it, unzip to a folder with all of the contents inside of it. 
 
