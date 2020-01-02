@@ -37,3 +37,11 @@ Once the macOS installer boots up, select your language if it asks you.
 
 ![](.gitbook/assets/vmplayer_5ftxof1kbv.png)
 
+## A more in-depth explanation about why this error occurred:
+
+Most package files, including the macOS installer, are signed with a certificate. It's basically the developers telling the user that this package came from them and wasn't altered. 
+
+These certficates expire after a certain time period, which need to be renewed by the original developers. In this case, the macOS installer's certificate's expiration date was 25 October 2019. Since these packages were no longer verified after that date, the installer would say that the copy of macOS is damaged or corrupted and refuse to run the installer. 
+
+Apple has fixed this by releasing installers with reverified packages... for the latest version of Yosemite - Mojave \(10.10.5, 10.11.6, 10.12.6, 10.13.6, 10.14.6\). To get around this, we need to change the date to a date before 25 October 2019, hence the `date -u` command. We also need to disable the network adapter, so macOS can't connect to the internet and correct the time.
+
