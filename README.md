@@ -20,7 +20,7 @@ Thank you for understanding. Now, back to the guide.
 
 Make sure that Virtualization/AMD-V is supported by your CPU and is enabled in your BIOS. CPUs made from around 2006 or newer should supports this but always good to check.
 
-Your CPU also needs to support the SSE4.1 instruction set in order to run Sierra and newer. CPUs made from around 2009 or newer should support this but like I said before, always good to check. You can use [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html) to check if you're not sure. 
+Your CPU also needs to support the SSE4.1 instruction set in order to run macOS Sierra and newer. CPUs made from around 2009 or newer should support this but like I said before, always good to check. You can use [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html) to check if you're not sure. 
 
 ![](.gitbook/assets/cpuz_x64_ybu0tpuj8s.png)
 

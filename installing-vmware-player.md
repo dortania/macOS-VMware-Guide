@@ -1,5 +1,5 @@
 ---
-description: 'Fun Fact: These screenshots were from inside a Windows 10 VM'
+description: 'Fun Fact: These screenshots were from inside a Windows 10 VM. Irony'
 ---
 
 # Installing VMware Player
