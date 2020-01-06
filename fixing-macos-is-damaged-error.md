@@ -2,17 +2,17 @@
 
 Due to the installer certificates expiring on 25 October 2019, you will encounter this error while installing. This page is temporary and will get deleted once the 10.14.6/10.15 XNU gets released \(and I make an installer\), since those versions had their certificates renewed by Apple.
 
-## Instructions:
+## Instructions
 
-* Select "Power on this virtual machine" and press any key to enter the BIOS.
+Select "Power on this virtual machine" and press any key to enter the BIOS.
 
 ![](.gitbook/assets/vmplayer_r5husjdbvo.png)
 
-* Don't select any drives yet. In the top right hand corner of the VMware Player windows, there will be a bunch of icons. The fourth one from the left is the network adapter \(it looks like two computer linked up\). Right click it and select "Disconnect".
+Don't select any drives yet. In the top right hand corner of the VMware Player windows, there will be a bunch of icons. The fourth one from the left is the network adapter \(it looks like two computer linked up\). Right click it and select "Disconnect".
 
 ![](.gitbook/assets/vmplayer_eo1glr79du.png)
 
-* Select the macOS installer. It's usually "Hard Drive \(2.0\)".
+Select the macOS installer. It's usually "Hard Drive \(2.0\)".
 
 ![](.gitbook/assets/vmplayer_4zjkfu5smq.png)
 
@@ -20,24 +20,25 @@ Once the macOS installer boots up, select your language if it asks you.
 
 ![](.gitbook/assets/vmplayer_lfkwqppk8y.png)
 
-* Once macOS Utilities opens, click "Utilities" in the Finder bar and select "Terminal". Do NOT select "Reinstall macOS" just yet.
+Once macOS Utilities opens, click "Utilities" in the Finder bar and select "Terminal". Do NOT select "Reinstall macOS" just yet.
 
 ![](.gitbook/assets/vmplayer_yf2h4x8dsf.png)
 
-* Once Terminal has opened, type `date -u 0924123419` and press enter.
+Once Terminal has opened, type `date -u 0924123419` and press enter.
 
 ![](.gitbook/assets/vmplayer_eg1bbjv0su.png)
 
-* It should say `Tue 24 Sep 2019 12:34:00 UTC`, which means you can close Terminal now.
+It should say `Tue 24 Sep 2019 12:34:00 UTC`, which means you can close Terminal now.
 
 ![](.gitbook/assets/vmplayer_1j6bbqdxsx.png)
 
-* Go to the next page and skip 6 steps. Start from the "opening Disk Utility" step.
-* Keep your network adapter disconnected during installation. Once you've reached the setup page, you can reconnect it
+Go to the next page and skip 6 steps. Start from the "opening Disk Utility" step.
+
+Keep your network adapter disconnected during installation. Once you've reached the setup page, you can reconnect it
 
 ![](.gitbook/assets/vmplayer_5ftxof1kbv.png)
 
-## A more in-depth explanation about why this error occurred:
+## A more in-depth explanation about why this error occurred
 
 Most package files, including the macOS installer, are signed with a certificate. It's basically the developers telling the user that this package came from them and wasn't altered. 
 

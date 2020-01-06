@@ -2,7 +2,7 @@
 
 I see that you want to make a macOS VM in VMware on your AMD CPU but have no idea how or you need a macOS virtual machine. You've come to the right place. This guide was written for Windows. It may work in Linux but no guarantees.
 
-## Message for FX/A-Series APU users:
+## Message for FX/A-Series APU users
 
 There is a bug for these CPUs in Mojave during setup. The setup will get to the "Data & Privacy" page, when you click "Next" setup will crash. I'm not sure if this affects all FXs/APUs, but I've seen it happen on numerous FXs/APUs. 
 
@@ -16,7 +16,7 @@ Since we're on the topic of bugs, if you've got an affected CPU and you want thi
 
 Thank you for understanding. Now, back to the guide.
 
-## Some tips to remember:
+## Some tips to remember
 
 Make sure that Virtualization/AMD-V is supported by your CPU and is enabled in your BIOS. CPUs made from around 2006 or newer should supports this but always good to check.
 
@@ -26,7 +26,7 @@ Your CPU also needs to support the SSE4.1 instruction set in order to run macOS 
 
 Due to VMware's graphics acceleration not being compatible with macOS, you will not have any graphics acceleration in your virtual machine. Things like the Launchpad will be extremely laggy, the Dock will be opaque and the virtual machine will not have multiple monitor support.
 
-Apple's online services \(App Store, iCloud, iMessage, FaceTime & Siri\) will not work in your virtual machine.
+The Mac App Store will not work straightaway. You will need to do some tweaking to the virtual machine, which you can find in the "Post Installation Tweaks" page. iCloud, iMessage, FaceTime & Siri will not work at all.
 
 Do not update you virtual machine. The AMD kernel is only built for 10.14.3 and you will break your virtual machine if you update it.
 
