@@ -1,3 +1,7 @@
+---
+description: Things you'll need to make this VM
+---
+
 # Prerequisites
 
 What you are going to need:

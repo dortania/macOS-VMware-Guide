@@ -24,7 +24,7 @@ Your CPU also needs to support the SSE4.1 instruction set in order to run macOS 
 
 ![](.gitbook/assets/cpuz_x64_ybu0tpuj8s.png)
 
-Due to VMware's graphics acceleration not being compatible with macOS, you will not have any graphics acceleration in your virtual machine. Things like the Launchpad will be extremely laggy, the Dock will be opaque and the virtual machine will not have multiple monitor support.
+Due to VMware's graphics acceleration not being compatible with macOS, you will not have any graphics acceleration in your virtual machine. Things like the Launchpad will be extremely laggy, the Dock will be opaque and the virtual machine will not have multiple monitor support. That means that apps like Final Cut Pro will not work at all on this.
 
 The Mac App Store will not work straightaway. You will need to do some tweaking to the virtual machine, which you can find in the "Post Installation Tweaks" page. iCloud, iMessage, FaceTime & Siri will not work at all.
 
