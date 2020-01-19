@@ -1,8 +1,6 @@
----
-description: In no particular order
----
-
 # Credits
+
+In no particular order.
 
 * NoOne - For giving me the idea to actually make this guide and for helping me host the VMDK.
 * NoOne/DhinakG - For making the original, awesome AMD Vanilla guides which were the inspiration for the layout of this guide.

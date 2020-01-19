@@ -1,9 +1,3 @@
----
-description: >-
-  The rest of these screenshots will come from my host computer or the actual
-  macOS VM
----
-
 # Making the virtual machine
 
 Now that you've installed VMware Unlocker, open up VMware. 
