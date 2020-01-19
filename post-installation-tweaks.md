@@ -137,7 +137,7 @@ This is only cosmetic. If you have a program that won't work because of an unsup
 
 #### Steps
 
-We need to disable System Integrity Protection, otherwise the script will fail.
+We first need to disable System Integrity Protection, otherwise the script we use to change the name will fail.
 
 Reboot into your macOS installer and open Terminal \(not going to provide instructions, as you should already know by now how to do that\)
 

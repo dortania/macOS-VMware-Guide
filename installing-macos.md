@@ -151,7 +151,7 @@ When the VM has rebooted, boot back into the installer and open Terminal once ag
 rm -rf /Volumes/Mojave/System/Library/PrelinkedKernels/prelinkedkernel  
 kextcache -u /Volumes/Mojave/`
 
-If you get a "KernelCache ID" at the end of that, that means that the prelinkedkernel rebuilt succesfully.
+If you get a "KernelCache ID" at the end of that, that means that the prelinkedkernel rebuilt succesfully. Sometimes you don't get anything at the end. That's fine too, macOS does that sometimes. As long as you don't get "Error 107", which means you've done something wrong.
 
 ![](.gitbook/assets/vmplayer_73oymvwfqm.png)
 
