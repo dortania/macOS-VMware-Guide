@@ -32,7 +32,7 @@ It should say `Tue 24 Sep 2019 12:34:00 UTC`, which means you can close Terminal
 
 ![](.gitbook/assets/vmplayer_1j6bbqdxsx.png)
 
-Go to the next page and skip 6 steps. Start from the "opening Disk Utility" step.
+Go to the next page and skip 7 steps \(count the text descriptions, not the screenshots\). Start from the "opening Disk Utility" step.
 
 Keep your network adapter disconnected during installation. Once you've reached the setup page, you can reconnect it
 
