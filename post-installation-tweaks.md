@@ -211,3 +211,35 @@ See, very quick and easy fix. Just so you know, you can install the other update
 
 ## Removing the macOS installer from the VM
 
+If you've changed your Finder settings to show your hard drives on your desktop. you may notice that the MojaveAMD installer is still mounted to your virtual machine. This tweak can help you prevent accidently modifying your installer in case you need it in the future.
+
+#### Prerequisites 
+
+* I can't think of a joke to add here
+
+#### Steps
+
+Shutdown your VM if it's powered on. macOS doesn't like it when SATA drives are hotswapped.
+
+_do i really need to add a screenshot showing you how to shutdown macOS?_
+
+Open your VM's settings and select "Hard Disk 2 \(SATA\)", it should be 7.5 GB under "Summary".
+
+![](.gitbook/assets/vmplayer_nnimau6kdq.png)
+
+You'll know if you've selected the right drive when the name says "MojaveAMD.vmdk". Click "Remove" on the bottom of the left panel.
+
+![](.gitbook/assets/vmplayer_nnimau6kdq-copy.png)
+
+The drive will disappear. Press OK and start your VM.
+
+![](.gitbook/assets/vmplayer_ykysioulwk.png)
+
+The installer will no longer be mounted to your VM.
+
+![](.gitbook/assets/vmplayer_q3wc0jeltx.png)
+
+
+
+
+
