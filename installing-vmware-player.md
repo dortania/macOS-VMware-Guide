@@ -1,7 +1,3 @@
----
-description: 'Fun Fact: These screenshots were from inside a Windows 10 VM. Irony'
----
-
 # Installing VMware Player
 
 Since I'm not providing VMware Workstation, I'm focusing on installing VMware Player.

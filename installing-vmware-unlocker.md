@@ -1,7 +1,3 @@
----
-description: 'Another Fun Fact: These screenshots are from that same VM'
----
-
 # Installing VMware Unlocker
 
 Click [here](https://github.com/paolo-projects/auto-unlocker/releases) or click on "VMware Unlocker" in Prerequisites to download VMware Unlocker.

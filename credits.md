@@ -12,5 +12,3 @@ In no particular order.
 * The VMware Team - For making VMware Player/Workstation Pro. 
 * **You** - For reading this guide! ~~Totally not taken from the AMD Vanilla guide~~
 
-Written by `AlexTheGreat4000#9577` for the [AMD-OSX Discord](https://discord.gg/EfCYAJW) over at [https://amd-vm.hackintosh-guides.ml/](https://amd-vm.hackintosh-guides.ml/).
-
