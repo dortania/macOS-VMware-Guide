@@ -80,9 +80,11 @@ Once the installer has booted, click on "Utilities" in the Finder bar and select
 
 ![](.gitbook/assets/p6-s19.png)
 
-Time to do the pre-install commands. Type these commands in Terminal \(replacing "Catalina" with whatever you named your hard drive earlier\): `cp -rf /Volumes/CatalinaAMD/System/Library/PrelinkedKernels/prelinkedkernel /Volumes/Catalina/macOS\ Install\ Data/Locked\ Files/Boot\ Files/`
+Time to do the pre-install command. Type this command in Terminal \(replacing "Catalina" with whatever you named your hard drive earlier\):`cp -rf /Volumes/CatalinaAMD/System/Library/PrelinkedKernels/prelinkedkernel /Volumes/Catalina/"macOS Install Data"/"Locked Files"/"Boot Files"/`
 
-Reboot the VM and leave it to install. This may take a while.
+![](.gitbook/assets/vmplayer_y6wcixpwhx.png)
+
+Reboot the VM via the Apple logo and leave it to install. Do not restart via VMware itself. The installation may take a while.
 
 ![](.gitbook/assets/annotation-2019-03-28-204917.jpg)
 
