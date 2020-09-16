@@ -6,6 +6,7 @@ What you are going to need:
 * [VMware Unlocker](https://github.com/paolo-projects/auto-unlocker/releases) \(this will allow you to install macOS in VMware in a more native way, this also contains our bootloader that we'll be using.\)
 * [~~A VMware AMD macOS installer~~](http://lfs.kellynet.nl/CatalinaAMD.vmdk) \(10.15.0\) 
 * The original VMDK link is currently down, use [this ](https://drive.google.com/file/d/1Hhm024F4H335JbHzbYEv9_o6RbzyHAgA/view?usp=sharing)link for now.
+* Or [this ](https://www.dropbox.com/s/94d3bh8weog9eva/CatalinaAMD.vmdk?dl=1) Dropbox link for now.
 
 
 
