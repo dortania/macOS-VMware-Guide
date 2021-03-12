@@ -123,7 +123,7 @@ That's it. No, I'm serious, that's it. Reboot your VM and make sure verbose boot
 
 ![](.gitbook/assets/p8-s20.png)
 
-If you ever want to disable it, open Terminal and type sudo nvram "boot-args="
+If you ever want to disable it, open Terminal and type sudo nvram boot-args=""
 
 ![](.gitbook/assets/p8-s21.png)
 
