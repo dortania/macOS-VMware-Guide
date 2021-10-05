@@ -98,7 +98,7 @@ Reboot the VM back into the BIOS, select the installer and open Terminal once ag
   
 rm -rf /Volumes/Catalina/System/Library/PrelinkedKernels/prelinkedkernel  
   
-kextcache -u /Volumes/Catalina/`
+kextcache -i /Volumes/Catalina/`
 
 For that last command, this is where the results may differ for some people. If you are stuck on "/Volumes/Catalina locked; waiting for lock", leave the VM alone for up to 5 minutes and it should start.
 
