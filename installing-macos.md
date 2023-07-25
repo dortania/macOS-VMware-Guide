@@ -94,11 +94,13 @@ If the VM restarts and you get a 'CPU is disabled' error, close the error window
 
 Reboot the VM back into the BIOS, select the installer and open Terminal once again. Time to do the post-install commands. \(replacing "Catalina" with whatever you named your hard drive earlier\): 
 
-`cp -rf /Volumes/CatalinaAMD/System/Library/Kernels/kernel /Volumes/Catalina/System/Library/Kernels/  
+```
+cp -rf /Volumes/CatalinaAMD/System/Library/Kernels/kernel /Volumes/Catalina/System/Library/Kernels/  
   
 rm -rf /Volumes/Catalina/System/Library/PrelinkedKernels/prelinkedkernel  
   
-kextcache -u /Volumes/Catalina/`
+kextcache -u /Volumes/Catalina/
+```
 
 For that last command, this is where the results may differ for some people. If you are stuck on "/Volumes/Catalina locked; waiting for lock", leave the VM alone for up to 5 minutes and it should start.
 
